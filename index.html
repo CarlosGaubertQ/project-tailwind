@@ -1,0 +1,263 @@
+<script src="https://cdn.tailwindcss.com"></script>
+
+<div class="flex flex-row h-screen bg-gray-100">
+  <div
+    class="flex flex-col justify-between w-16 flex-none items-center p-4 bg-gray-200"
+  >
+    <div class="flex flex-col space-y-4">
+      <a><div class="rounded-full bg-gray-400 w-8 h-8"></div></a>
+      <a><div class="rounded-full bg-gray-400 w-8 h-8"></div></a>
+      <a><div class="rounded-full bg-gray-400 w-8 h-8"></div></a>
+      <a><div class="rounded-full bg-gray-400 w-8 h-8"></div></a>
+      <a><div class="rounded-full bg-gray-400 w-8 h-8"></div></a>
+      <a><div class="rounded-full bg-gray-400 w-8 h-8"></div></a>
+    </div>
+    <div class="flex flex-col space-y-4">
+      <a><div class="rounded-full bg-gray-400 w-8 h-8"></div></a>
+      <a><div class="rounded-full bg-gray-400 w-8 h-8"></div></a>
+      <a><div class="rounded-full bg-gray-400 w-8 h-8"></div></a>
+    </div>
+  </div>
+  <div class="w-64 bg-gray-100 p-4 flex flex-col flex-none space-y-4">
+    <div class="flex flex-row justify-between items-center mb-6">
+      <h1 class="font-semibold text-2xl">Inbox</h1>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4 flex-none"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+        />
+      </svg>
+    </div>
+
+    <div class="bg-red-200 h-64"></div>
+    <div class="bg-red-200 h-64"></div>
+  </div>
+  <div
+    class="flex flex-row flex-auto bg-white rounded-tl-xl border-1 shadow-xl"
+  >
+    <div class="flex flex-col w-1/5">
+      <div class="flex-none h-24 bg-red-200">top</div>
+      <div class="flex-col overflow-y-auto">
+        <a class="block border-b">
+          <div class="border-l-2 border-blue-500 bg-blue-100 p-3 space-y-4">
+            <div class="flex flex-row space-x-2 items-center">
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+              </span>
+              <strong class="flex-grow text-sm">Nikola Tesla</strong>
+              <div class="text-sm text-gray-600">5hr</div>
+            </div>
+            <div class="flex flex-row items-center space-x-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="flex-none h-3 w-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                />
+              </svg>
+              <div class="flex-grow truncate text-xs">some message content</div>
+            </div>
+          </div></a
+        >
+        <a class="block border-b">
+          <div
+            class="border-l-2 p-3 space-y-4 border-transparent hover:bg-gray-100"
+          >
+            <div class="flex flex-row space-x-2 items-center">
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+              </span>
+              <strong class="flex-grow text-sm">Nikola Tesla</strong>
+              <div class="text-sm text-gray-600">5hr</div>
+            </div>
+            <div class="flex flex-row items-center space-x-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="flex-none h-3 w-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                />
+              </svg>
+              <div class="flex-grow truncate text-xs">some message content</div>
+            </div>
+          </div></a
+        >
+      </div>
+    </div>
+    <div class="w-3/5 border-l border-r border-gray-400 flex flex-col">
+      <div
+        class="flex-none h-16  flex flex-row justify-between items-center p-4"
+      >
+        <div class="flex flex-col space-y-1">
+          <strong class="hover:underline">Nikola Tesla</strong>
+          <input type="text" class="text-sm text-gray-300 text-block placeholder-gray-600 focus:border-b hover:border-b border-dashed outline-none" placeholder="Add conversation tittle" value="text"/>
+        </div>
+        <div class="flex flex-row items-center ">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+            />
+          </svg>
+          
+        </div>
+      </div>
+      <div class="flex-auto overflow-y-auto " style="background-image: url(https://static.intercomassets.com/ember/assets/images/messenger-backgrounds/background-1-99a36524645be823aabcd0e673cb47f8.png);"></div>
+      <div class="flex-none h-64 p-4 pt-0">
+        <textarea  class="w-full h-full outline-none border hover:border-blue-600 focus:border-blue-600 rounded p-4 shadow-lg">hi</textarea>
+      </div>
+    </div>
+    <div class="w-1/5 bg-gray-200 overflow-y-auto flex flex-col">
+      <div class="h-64 flex-none border-b border-gray-400 flex flex-col"></div>
+      <div class="flex flex-col space-y-4 p-4">
+        <div
+          class="flex flex-none h-64 bg-white border rounded P-4 items-center justify-center"
+        >
+          manchin
+        </div>
+        <div
+          class="flex flex-none h-64 bg-white border rounded P-4 items-center justify-center"
+        >
+          manchin
+        </div>
+        <div
+          class="flex flex-none h-64 bg-white border rounded P-4 items-center justify-center"
+        >
+          manchin
+        </div>
+        <div
+          class="flex flex-none h-64 bg-white border rounded P-4 items-center justify-center"
+        >
+          manchin
+        </div>
+        <div
+          class="flex flex-none h-64 bg-white border rounded P-4 items-center justify-center"
+        >
+          manchin
+        </div>
+        <div
+          class="flex flex-none h-64 bg-white border rounded P-4 items-center justify-center"
+        >
+          manchin
+        </div>
+        <div
+          class="flex flex-none h-64 bg-white border rounded P-4 items-center justify-center"
+        >
+          manchin
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
